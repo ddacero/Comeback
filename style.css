@@ -103,8 +103,16 @@ h4 {
     text-align: center;
   }
 
+  .head-container {
+    width: 700px;
+    margin: auto;
+    border: 1px solid red;
+    padding: 50px;
+    text-align: center;
+  }
+
   .main-container {
-    width: 300px;
+    width: 500px;
     margin: auto;
     border: 1px solid red;
   }
@@ -113,15 +121,46 @@ h4 {
     display: flex;
     justify-content: space-between;
     border: 1px solid red;
+    
   }
 
   h3 {
+    padding: 10px;
     width: 18%;
     min-width: 77px;
     float: left;
    }
+
    iframe {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .create-container {
+    width: 200px;
+    margin: auto;
+    border: 1px solid red;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+  }
+
+  .what-container {
+    width: 650px;
+    margin: auto;
+    border: 1px solid red;
+    display: block;
+    padding: 70px;
+    text-align: center;
+    font-size: 30px;
+
+  }
+
+  .lorem2 {
+    width: 500px;
+    margin: auto;
+    border: 1px solid red;
+    text-align: center;
+    padding: 40px;
   }
