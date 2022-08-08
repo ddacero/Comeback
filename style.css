@@ -97,11 +97,6 @@ body {
 /* AKOA NI DIRI PESTENG YAWA */
 /* AKOA NI DIRI PESTENG YAWA */
 
-h4 {
-    float: left;
-    display: inline;
-    text-align: center;
-  }
 
   .head-container {
     width: 700px;
@@ -124,7 +119,7 @@ h4 {
     
   }
 
-  h3 {
+  .h3 {
     padding: 10px;
     width: 18%;
     min-width: 77px;
@@ -140,7 +135,7 @@ h4 {
   .create-container {
     width: 200px;
     margin: auto;
-    border: 1px solid red;
+    border: 1px solid green;
     text-align: center;
     padding: 40px;
     display: flex;
@@ -149,11 +144,11 @@ h4 {
   .what-container {
     width: 650px;
     margin: auto;
-    border: 1px solid red;
     display: block;
     padding: 70px;
     text-align: center;
     font-size: 30px;
+    border: 1px solid yellow;
 
   }
 
@@ -163,4 +158,20 @@ h4 {
     border: 1px solid red;
     text-align: center;
     padding: 40px;
+  }
+
+  .main-container2 {
+    width: 1000px;
+    margin: auto;
+    border: 1px solid red;
+    display: flex;
+  }
+
+  .trade-container {
+    width: 33.33%;
+    height: auto;
+    border: 1px solid red;
+    text-align: center;
+    padding: 40px;
+    
   }
